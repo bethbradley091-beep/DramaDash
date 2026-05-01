@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7B8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Welcome Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:lineSpacingExtra="6dp" />
+        </LinearLayout>
+
+        <!-- Buttons Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btnAnnouncements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Announcements"
+                android:drawableStart="@android:drawable/ic_dialog_info"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#7B3FE4"
+                android:textColor="#FFFFFF"
+                android:drawableTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnTimetable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timetable"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#7B3FE4"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnPayments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payments"
+                android:drawableStart="@android:drawable/ic_menu_send"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#7B3FE4"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnEvents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:drawableStart="@android:drawable/ic_menu_gallery"
+                android:drawablePadding="10dp"
+                android:backgroundTint="#7B3FE4"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:layout_gravity="center"
+            android:backgroundTint="#7B3FE4"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

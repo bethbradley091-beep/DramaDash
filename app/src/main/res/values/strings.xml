@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DramaDash</string>
+    <string name="payments_title">Payments</string>
+    <string name="mark_paid">Mark as Paid</string>
+    <string name="back">Back</string>
+
+    <string name="payment_placeholder">Payment details will appear here</string>
+</resources>
